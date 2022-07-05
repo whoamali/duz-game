@@ -1,0 +1,68 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #E74C3C;
+}
+
+main .sections {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main .sections .sections-item {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+main .sections .sections-item#sec0 {
+  border-right: 5px solid #9C2619;
+  border-bottom: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec1 {
+  border-right: 5px solid #9C2619;
+  border-bottom: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec2 {
+  border-right: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec3 {
+  border-right: 5px solid #9C2619;
+  border-bottom: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec4 {
+  border-right: 5px solid #9C2619;
+  border-bottom: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec5 {
+  border-right: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec6 {
+  border-bottom: 5px solid #9C2619;
+}
+
+main .sections .sections-item#sec7 {
+  border-bottom: 5px solid #9C2619;
+}
